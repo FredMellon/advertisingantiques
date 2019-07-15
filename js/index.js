@@ -1,4 +1,4 @@
-alert("Welcome to my Antique Website");
+alert("Welcome to my Vintage Advertising Website");
 
-// slide show
+
 

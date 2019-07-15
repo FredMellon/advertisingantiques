@@ -12,20 +12,68 @@ body {
 background-color: #C2C2C2;
 }
 
-/*
-p {
-font-size: 30px;
-color: white;
-text-align: center;
 
 
-}*/
-
-/* sizing image */
+/* sizing background image */
 .photo {
   width: 100%; 
   margin: auto; 
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
 } 
+
+/* adding a bottom text block over image */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  left: 50px;
+  background-color: rgb(94, 92, 92);  
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* sizing and positioning images */
+.bread {
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+  width: 500px;
+  height: 300px;
+  border:5px solid #FF0000;
+  box-shadow: 5px 10px;
+}
+
+.soda {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  width: 500px;
+  height: 300px;
+  border:5px solid #FF0000;
+  box-shadow: 5px 10px;
+}
+
+.tobacco {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  width: 500px;
+  height: 300px;
+  border:5px solid #FF0000;
+  box-shadow: 5px 10px;
+}
+
+.oil {
+  position: absolute;
+  top: 550px;
+  right: 100px;
+  width: 500px;
+  height: 300px;
+  border:5px solid #FF0000;
+  box-shadow: 5px 10px;
+}
 
 /* styling the footer*/
 footer {
@@ -34,4 +82,8 @@ footer {
   padding: 5px;
   background-color: #ACACAC;
   color: #fff;
+}
+/* text in image */
+.container {
+  position: relative;
 }

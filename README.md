@@ -1,0 +1,1 @@
+This is my Vintage Advertising website. I have images and custom CSS to enhance your experience. Enjoy.
