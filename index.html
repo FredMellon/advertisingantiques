@@ -1,8 +1,10 @@
 <html>
 <head>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>
-    <h1>Advertising Antiques</h1>   
+   Advertising Antiques 
   </title>
     <link rel="stylesheet" href="styles/style.css">
   
@@ -13,29 +15,44 @@
   <header>
     Vintage Advertising
   </header>
-    <div class="container">
-      <img class="photo" src="images/photo.jpg">
+    <div class="bg-container">
       <div class="text-block">
-        <p>Advertising Antiques are very interesting and collectable. Items can be made from metal, wood, paper, glass, cardboard or plastic. They can be as small as a button or as large as a sign.</p>        
+        <p>Advertising Antiques are very interesting and collectable. Items can be made from metal, wood, paper, glass, cardboard or plastic. They can be as small as a button or as large as a sign.</p> 
+      </div>
+      <div class=row>
+        <div class="col-md-6">
+          <div id="bread">
+            <img class="photo" src="images/bread.jpg" onclick="breadInfo()">      
+          </div>
+        </div>
+        <div class=col-md-6>
+          <div id="soda">
+            <img class="photo" src="images/soda.jpg" onclick="sodaInfo()">      
+          </div>
+        </div>
+      </div>
+      <div class=row>
+        <div class=col-md-6>
+          <div id="tobacco">
+            <img class="photo" src= "images/tobacco.jpg" onclick="tobaccoInfo()">      
+          </div> 
+        </div>
+        <div class=col-md-6>
+          <div id="oil">
+            <img class="photo" src= "images/oil.jpg" onclick="oilInfo()">
+          </div> 
+        </div>
       </div>
     </div>
 
-  
-    <div id="bread">
-      <img class="bread" src="images/bread.jpg">      
-    </div>
+    
+    
 
-    <div id="soda">
-      <img class="soda" src="images/soda.jpg">      
-    </div>
+    
 
-    <div id="tobacco">
-      <img class="tobacco" src= "images/tobacco.jpg">      
-    </div>
+    
 
-    <div id="oil">
-      <img class="oil" src= "images/oil.jpg">
-    </div>
+    
     
   
 
