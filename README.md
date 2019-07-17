@@ -1,1 +1,1 @@
-This is my Vintage Advertising website. I have images and custom CSS to enhance your experience. Enjoy.
+This is my Vintage Advertising website. I have images and custom CSS to enhance your experience. Clicking on the center images will provide additional information. Enjoy.

@@ -36,38 +36,26 @@ margin:0 auto;
   z-index: 1000;
 }
 
-/* sizing and positioning images */
+/* sizing and customizing images */
 .bread {
- 
-  width: 500px;
+   width: 500px;
   height: 300px;
-  border:5px solid #FF0000;
-  box-shadow: 5px 10px;
-}
+ }
 
 .soda {
-  
-  width: 500px;
+    width: 500px;
   height: 300px;
-  border:5px solid #FF0000;
-  box-shadow: 5px 10px;
-}
+ }
 
 .tobacco {
-  
-  width: 500px;
+   width: 500px;
   height: 300px;
-  border:5px solid #FF0000;
-  box-shadow: 5px 10px;
 }
 
 .oil {
- 
-  width: 500px;
+   width: 500px;
   height: 300px;
-  border:5px solid #FF0000;
-  box-shadow: 5px 10px;
-}
+  }
 
 /* styling the footer*/
 footer {
